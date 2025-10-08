@@ -1,9 +1,23 @@
 {
   "manifest_version": 2,
-  "name": "Firefox Black Theme",
-  "version": "1.0.0",
-  "description": "Monochrome dark theme for Firefox chrome, toolbar, and sidebar.",
+  "name": "Firefox Black Theme Toolkit",
+  "version": "1.1.0",
+  "description": "Dark Firefox theme with presets and custom color controls.",
   "author": "Firefox-Extension-Theme-Black",
+  "permissions": [
+    "storage",
+    "theme"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
   "theme": {
     "colors": {
       "frame": "#0b0b0d",

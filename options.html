@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firefox 黑色主题设定</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <header class="header">
+        <h1>Firefox 黑色主题设定</h1>
+        <p>选择预设模板或自订色票，立刻套用到浏览器界面。</p>
+      </header>
+
+      <section class="card">
+        <h2>主题模板</h2>
+        <p class="helper">点击任一模板按钮即可载入对应配色。</p>
+        <div id="preset-list" class="preset-grid" role="list"></div>
+      </section>
+
+      <section class="card">
+        <h2>自订颜色</h2>
+        <p class="helper">调整色票后会即时保存并套用，若要返回预设值可使用下方按钮。</p>
+        <form id="color-form" autocomplete="off">
+          <div id="color-fields" class="color-grid"></div>
+          <div class="actions">
+            <button type="button" id="reset-button" class="secondary">恢复默认模板</button>
+            <button type="button" id="apply-button" class="primary">储存并套用</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="card">
+        <h2>即时预览</h2>
+        <div id="preview" class="preview">
+          <div class="preview-toolbar">
+            <span class="tab tab--active">示例分页</span>
+            <span class="tab">标签页</span>
+            <span class="tab">更多</span>
+            <div class="address-bar">
+              <span class="dot"></span>
+              <div class="url">https://example.com</div>
+            </div>
+          </div>
+          <aside class="preview-sidebar">
+            <div class="item item--active">书签栏项目</div>
+            <div class="item">阅读列表</div>
+            <div class="item">扩展功能</div>
+          </aside>
+          <div class="preview-popup">
+            <header>弹出视窗</header>
+            <p>主按钮与文字在此检视可读性。</p>
+            <button>动作</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="options.js" defer></script>
+  </body>
+</html>
