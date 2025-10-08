@@ -18,30 +18,8 @@
     "page": "options.html",
     "open_in_tab": false
   },
-  "theme": {
-    "colors": {
-      "frame": "#0b0b0d",
-      "frame_inactive": "#111114",
-      "tab_background_text": "#f6f7fb",
-      "tab_selected": "#1c1c21",
-      "tab_loading": "#4c8dff",
-      "tab_line": "#4c8dff",
-      "toolbar": "#141419",
-      "toolbar_text": "#f6f7fb",
-      "toolbar_field": "#1b1b21",
-      "toolbar_field_text": "#f6f7fb",
-      "toolbar_field_border": "#282830",
-      "toolbar_field_border_focus": "#3b82f6",
-      "toolbar_vertical_separator": "#2f2f37",
-      "toolbar_top_separator": "#07070a",
-      "bookmark_text": "#f6f7fb",
-      "sidebar": "#101016",
-      "sidebar_text": "#f6f7fb",
-      "sidebar_highlight": "#1f2937",
-      "sidebar_highlight_text": "#f6f7fb",
-      "popup": "#141419",
-      "popup_text": "#f6f7fb",
-      "popup_border": "#2b2b33"
-    }
+  "sidebar_action": {
+    "default_title": "黑色主题工具箱",
+    "default_panel": "options.html"
   }
 }
